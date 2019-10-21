@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_oD3iYPCeEemoOf5U7hYdsA" name="Watch">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_oU0vgPCeEemoOf5U7hYdsA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_oVYJIPCeEemoOf5U7hYdsA">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lnD20PCgEemoOf5U7hYdsA" name="Requirements">
+      <packagedElement xmi:type="uml:Class" xmi:id="_9GzewPCgEemoOf5U7hYdsA" name="Smart Watch"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RJ0u4PCmEemoOf5U7hYdsA" name="Watch"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_RKCKQPCmEemoOf5U7hYdsA" name="Derived_from_Smart Watch" client="_RJ0u4PCmEemoOf5U7hYdsA" supplier="_9GzewPCgEemoOf5U7hYdsA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Lqyd4PCnEemoOf5U7hYdsA" name="Screen"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_Lq8O4PCnEemoOf5U7hYdsA" name="Derived_from_Smart Watch" client="_Lqyd4PCnEemoOf5U7hYdsA" supplier="_9GzewPCgEemoOf5U7hYdsA"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_RLX8IPCoEemoOf5U7hYdsA" name="&lt;&lt;Derive>>" client="_9GzewPCgEemoOf5U7hYdsA" supplier="_Lqyd4PCnEemoOf5U7hYdsA"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_Zwv2gPCoEemoOf5U7hYdsA" name="&lt;&lt;Derive>>" client="_9GzewPCgEemoOf5U7hYdsA" supplier="_RJ0u4PCmEemoOf5U7hYdsA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_MbpoMPCpEemoOf5U7hYdsA" name="Widgets"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_MbvHwPCpEemoOf5U7hYdsA" name="Derived_from_Smart Watch" client="_MbpoMPCpEemoOf5U7hYdsA" supplier="_9GzewPCgEemoOf5U7hYdsA"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_iJZuEPCpEemoOf5U7hYdsA" name="&lt;&lt;Derive>>" client="_9GzewPCgEemoOf5U7hYdsA" supplier="_MbpoMPCpEemoOf5U7hYdsA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_44YAYPCpEemoOf5U7hYdsA" name="GPS"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_44c44PCpEemoOf5U7hYdsA" name="Derived_from_Widgets" client="_44YAYPCpEemoOf5U7hYdsA" supplier="_MbpoMPCpEemoOf5U7hYdsA"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_DuCiYPCqEemoOf5U7hYdsA" name="&lt;&lt;Derive>>" client="_MbpoMPCpEemoOf5U7hYdsA" supplier="_44YAYPCpEemoOf5U7hYdsA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_KC5zoPFjEemXarYm_2DuEw" name="Acelerometer"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_KDN8sPFjEemXarYm_2DuEw" name="Derived_from_Widgets" client="_KC5zoPFjEemXarYm_2DuEw" supplier="_MbpoMPCpEemoOf5U7hYdsA"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_mW2KYPFjEemXarYm_2DuEw" name="&lt;&lt;Derive>>" client="_MbpoMPCpEemoOf5U7hYdsA" supplier="_KC5zoPFjEemXarYm_2DuEw"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_vNmIoPFjEemXarYm_2DuEw" name="Gyroscope"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_vNsPQPFjEemXarYm_2DuEw" name="Derived_from_Widgets" client="_vNmIoPFjEemXarYm_2DuEw" supplier="_MbpoMPCpEemoOf5U7hYdsA"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_1jRRQPFjEemXarYm_2DuEw" name="&lt;&lt;Derive>>" client="_MbpoMPCpEemoOf5U7hYdsA" supplier="_vNmIoPFjEemXarYm_2DuEw"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IK_aUPFkEemXarYm_2DuEw" name="Photodiode"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_ILDrwPFkEemXarYm_2DuEw" name="Derived_from_Widgets" client="_IK_aUPFkEemXarYm_2DuEw" supplier="_MbpoMPCpEemoOf5U7hYdsA"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_lip34PFkEemXarYm_2DuEw" name="&lt;&lt;Derive>>" client="_MbpoMPCpEemoOf5U7hYdsA" supplier="_IK_aUPFkEemXarYm_2DuEw"/>
+      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QoC3gPCmEemoOf5U7hYdsA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QoDekPCmEemoOf5U7hYdsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+        </eAnnotations>
+        <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+      </profileApplication>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oP2I4PCeEemoOf5U7hYdsA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oP82kPCeEemoOf5U7hYdsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oUqXcPCeEemoOf5U7hYdsA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oUqXcfCeEemoOf5U7hYdsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oUuo4PCeEemoOf5U7hYdsA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oUuo4fCeEemoOf5U7hYdsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oUvP8PCeEemoOf5U7hYdsA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oUvP8fCeEemoOf5U7hYdsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oUv3APCeEemoOf5U7hYdsA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oUv3AfCeEemoOf5U7hYdsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oUweEPCeEemoOf5U7hYdsA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oUweEfCeEemoOf5U7hYdsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oUxFIPCeEemoOf5U7hYdsA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oUxFIfCeEemoOf5U7hYdsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oUxsMPCeEemoOf5U7hYdsA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oUyTQPCeEemoOf5U7hYdsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oUyTQfCeEemoOf5U7hYdsA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oUy6UPCeEemoOf5U7hYdsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oUzhYPCeEemoOf5U7hYdsA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oUzhYfCeEemoOf5U7hYdsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_9J-HgPCgEemoOf5U7hYdsA" base_Class="_9GzewPCgEemoOf5U7hYdsA" id="R-01" text="The smart watch should tell the user the time and allow the user to excecute, install or uninstall widgets which can make use of it's sensors."/>
+  <Requirements:Requirement xmi:id="_RJ7ckPCmEemoOf5U7hYdsA" base_Class="_RJ0u4PCmEemoOf5U7hYdsA" id="R-02" text="The watch shall display the current time when the screen is not asleep and when the screen is not displaying another widget at the moment. "/>
+  <Requirements:DeriveReqt xmi:id="_RKIQ4PCmEemoOf5U7hYdsA" base_DirectedRelationship="_RKCKQPCmEemoOf5U7hYdsA" base_Abstraction="_RKCKQPCmEemoOf5U7hYdsA"/>
+  <Requirements:Requirement xmi:id="_Lq5LkPCnEemoOf5U7hYdsA" base_Class="_Lqyd4PCnEemoOf5U7hYdsA" id="R-03" text="Screen should be asleep to save battery and it can be turned on by tapping the touch screen, pressing the side button or detecting a rotation to check the watch (face up)."/>
+  <Requirements:DeriveReqt xmi:id="_LrBucPCnEemoOf5U7hYdsA" base_DirectedRelationship="_Lq8O4PCnEemoOf5U7hYdsA" base_Abstraction="_Lq8O4PCnEemoOf5U7hYdsA"/>
+  <Requirements:Requirement xmi:id="_Mbt5oPCpEemoOf5U7hYdsA" base_Class="_MbpoMPCpEemoOf5U7hYdsA" id="R-04" text="The watch should let the user install, uninstall or excecute widgets which provide data extracted from the sensors."/>
+  <Requirements:DeriveReqt xmi:id="_MbzZMPCpEemoOf5U7hYdsA" base_DirectedRelationship="_MbvHwPCpEemoOf5U7hYdsA" base_Abstraction="_MbvHwPCpEemoOf5U7hYdsA"/>
+  <Requirements:Requirement xmi:id="_44acoPCpEemoOf5U7hYdsA" base_Class="_44YAYPCpEemoOf5U7hYdsA" id="R-05" text="The GPS sensor shall allow widgets to retrieve the location coordinates and time. "/>
+  <Requirements:DeriveReqt xmi:id="_44fVIPCpEemoOf5U7hYdsA" base_DirectedRelationship="_44c44PCpEemoOf5U7hYdsA" base_Abstraction="_44c44PCpEemoOf5U7hYdsA"/>
+  <Requirements:Requirement xmi:id="_KDJEMPFjEemXarYm_2DuEw" base_Class="_KC5zoPFjEemXarYm_2DuEw" id="R-06" text="The Acelerometer sensor shall allow widgets to detect sudden movements and the movement direction on a vector form. "/>
+  <Requirements:DeriveReqt xmi:id="_KDUDUPFjEemXarYm_2DuEw" base_DirectedRelationship="_KDN8sPFjEemXarYm_2DuEw" base_Abstraction="_KDN8sPFjEemXarYm_2DuEw"/>
+  <Requirements:Requirement xmi:id="_vNpzAPFjEemXarYm_2DuEw" base_Class="_vNmIoPFjEemXarYm_2DuEw" id="R-07" text="The gyroscope sensor shall allow widgets to detect device rotation and provide it's direction on a vector form. "/>
+  <Requirements:DeriveReqt xmi:id="_vNurgPFjEemXarYm_2DuEw" base_DirectedRelationship="_vNsPQPFjEemXarYm_2DuEw" base_Abstraction="_vNsPQPFjEemXarYm_2DuEw"/>
+  <Requirements:Requirement xmi:id="_ILCdoPFkEemXarYm_2DuEw" base_Class="_IK_aUPFkEemXarYm_2DuEw" id="R-08" text="The photodiode sensor shall allow widgets to detect light conditions. "/>
+  <Requirements:DeriveReqt xmi:id="_ILGvEPFkEemXarYm_2DuEw" base_DirectedRelationship="_ILDrwPFkEemXarYm_2DuEw" base_Abstraction="_ILDrwPFkEemXarYm_2DuEw"/>
+</xmi:XMI>
