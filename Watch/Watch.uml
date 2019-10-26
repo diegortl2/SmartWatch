@@ -7,35 +7,64 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_oVYJIPCeEemoOf5U7hYdsA">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="_lnD20PCgEemoOf5U7hYdsA" name="Requirements">
-      <packagedElement xmi:type="uml:Class" xmi:id="_9GzewPCgEemoOf5U7hYdsA" name="Smart Watch"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_RJ0u4PCmEemoOf5U7hYdsA" name="Watch"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_RKCKQPCmEemoOf5U7hYdsA" name="Derived_from_Smart Watch" client="_RJ0u4PCmEemoOf5U7hYdsA" supplier="_9GzewPCgEemoOf5U7hYdsA"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_Lqyd4PCnEemoOf5U7hYdsA" name="Screen"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_Lq8O4PCnEemoOf5U7hYdsA" name="Derived_from_Smart Watch" client="_Lqyd4PCnEemoOf5U7hYdsA" supplier="_9GzewPCgEemoOf5U7hYdsA"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_RLX8IPCoEemoOf5U7hYdsA" name="&lt;&lt;Derive>>" client="_9GzewPCgEemoOf5U7hYdsA" supplier="_Lqyd4PCnEemoOf5U7hYdsA"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_Zwv2gPCoEemoOf5U7hYdsA" name="&lt;&lt;Derive>>" client="_9GzewPCgEemoOf5U7hYdsA" supplier="_RJ0u4PCmEemoOf5U7hYdsA"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_MbpoMPCpEemoOf5U7hYdsA" name="Widgets"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_MbvHwPCpEemoOf5U7hYdsA" name="Derived_from_Smart Watch" client="_MbpoMPCpEemoOf5U7hYdsA" supplier="_9GzewPCgEemoOf5U7hYdsA"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_iJZuEPCpEemoOf5U7hYdsA" name="&lt;&lt;Derive>>" client="_9GzewPCgEemoOf5U7hYdsA" supplier="_MbpoMPCpEemoOf5U7hYdsA"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_44YAYPCpEemoOf5U7hYdsA" name="GPS"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_44c44PCpEemoOf5U7hYdsA" name="Derived_from_Widgets" client="_44YAYPCpEemoOf5U7hYdsA" supplier="_MbpoMPCpEemoOf5U7hYdsA"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_DuCiYPCqEemoOf5U7hYdsA" name="&lt;&lt;Derive>>" client="_MbpoMPCpEemoOf5U7hYdsA" supplier="_44YAYPCpEemoOf5U7hYdsA"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_KC5zoPFjEemXarYm_2DuEw" name="Acelerometer"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_KDN8sPFjEemXarYm_2DuEw" name="Derived_from_Widgets" client="_KC5zoPFjEemXarYm_2DuEw" supplier="_MbpoMPCpEemoOf5U7hYdsA"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_mW2KYPFjEemXarYm_2DuEw" name="&lt;&lt;Derive>>" client="_MbpoMPCpEemoOf5U7hYdsA" supplier="_KC5zoPFjEemXarYm_2DuEw"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_vNmIoPFjEemXarYm_2DuEw" name="Gyroscope"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_vNsPQPFjEemXarYm_2DuEw" name="Derived_from_Widgets" client="_vNmIoPFjEemXarYm_2DuEw" supplier="_MbpoMPCpEemoOf5U7hYdsA"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_1jRRQPFjEemXarYm_2DuEw" name="&lt;&lt;Derive>>" client="_MbpoMPCpEemoOf5U7hYdsA" supplier="_vNmIoPFjEemXarYm_2DuEw"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_IK_aUPFkEemXarYm_2DuEw" name="Photodiode"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_ILDrwPFkEemXarYm_2DuEw" name="Derived_from_Widgets" client="_IK_aUPFkEemXarYm_2DuEw" supplier="_MbpoMPCpEemoOf5U7hYdsA"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_lip34PFkEemXarYm_2DuEw" name="&lt;&lt;Derive>>" client="_MbpoMPCpEemoOf5U7hYdsA" supplier="_IK_aUPFkEemXarYm_2DuEw"/>
-      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QoC3gPCmEemoOf5U7hYdsA">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QoDekPCmEemoOf5U7hYdsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
-          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
-        </eAnnotations>
-        <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
-      </profileApplication>
+    <packagedElement xmi:type="uml:Package" xmi:id="_EF2aEPgsEemhb-jx_HZ7Hw" name="Behavior">
+      <packagedElement xmi:type="uml:Package" xmi:id="_lnD20PCgEemoOf5U7hYdsA" name="Requirements">
+        <packagedElement xmi:type="uml:Class" xmi:id="_9GzewPCgEemoOf5U7hYdsA" name="Smart Watch">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_RJ0u4PCmEemoOf5U7hYdsA" name="Watch"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_Lqyd4PCnEemoOf5U7hYdsA" name="Screen"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_MbpoMPCpEemoOf5U7hYdsA" name="Widgets">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_44YAYPCpEemoOf5U7hYdsA" name="GPS"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_KC5zoPFjEemXarYm_2DuEw" name="Acelerometer"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_vNmIoPFjEemXarYm_2DuEw" name="Gyroscope"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_IK_aUPFkEemXarYm_2DuEw" name="Photodiode"/>
+          </nestedClassifier>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_RKCKQPCmEemoOf5U7hYdsA" name="Derived_from_Smart Watch" client="_RJ0u4PCmEemoOf5U7hYdsA" supplier="_9GzewPCgEemoOf5U7hYdsA"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Lq8O4PCnEemoOf5U7hYdsA" name="Derived_from_Smart Watch" client="_Lqyd4PCnEemoOf5U7hYdsA" supplier="_9GzewPCgEemoOf5U7hYdsA"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_MbvHwPCpEemoOf5U7hYdsA" name="Derived_from_Smart Watch" client="_MbpoMPCpEemoOf5U7hYdsA" supplier="_9GzewPCgEemoOf5U7hYdsA"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_44c44PCpEemoOf5U7hYdsA" name="Derived_from_Widgets" client="_44YAYPCpEemoOf5U7hYdsA" supplier="_MbpoMPCpEemoOf5U7hYdsA"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_KDN8sPFjEemXarYm_2DuEw" name="Derived_from_Widgets" client="_KC5zoPFjEemXarYm_2DuEw" supplier="_MbpoMPCpEemoOf5U7hYdsA"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_vNsPQPFjEemXarYm_2DuEw" name="Derived_from_Widgets" client="_vNmIoPFjEemXarYm_2DuEw" supplier="_MbpoMPCpEemoOf5U7hYdsA"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_ILDrwPFkEemXarYm_2DuEw" name="Derived_from_Widgets" client="_IK_aUPFkEemXarYm_2DuEw" supplier="_MbpoMPCpEemoOf5U7hYdsA"/>
+        <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QoC3gPCmEemoOf5U7hYdsA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QoDekPCmEemoOf5U7hYdsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+          </eAnnotations>
+          <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+        </profileApplication>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_BHXPsPgsEemhb-jx_HZ7Hw" name="Activities">
+        <packagedElement xmi:type="uml:Activity" xmi:id="_MVulkPgsEemhb-jx_HZ7Hw" name="Activity1" node="_Q5MwwPgsEemhb-jx_HZ7Hw _YKxg8PgsEemhb-jx_HZ7Hw _HbEsoPgwEemhb-jx_HZ7Hw _Jh9goPgwEemhb-jx_HZ7Hw _g4apsPgwEemhb-jx_HZ7Hw _36I44PgwEemhb-jx_HZ7Hw _4zUHIPgxEemhb-jx_HZ7Hw _-E6HIPgyEemhb-jx_HZ7Hw">
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_h5FZUPgsEemhb-jx_HZ7Hw" name="GPS Detect Time and Location"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_NcLa0PgtEemhb-jx_HZ7Hw" name="Detect movement"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_znOZkPgtEemhb-jx_HZ7Hw" name="Detect Rotation"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_1E8C0PgvEemhb-jx_HZ7Hw" name="Display Date and Time"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_4JQIYPgvEemhb-jx_HZ7Hw" name="Display Cadence"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_-r7yQPgvEemhb-jx_HZ7Hw" name="Display Location"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_d-VeMPgwEemhb-jx_HZ7Hw" name="Wait for Input"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_jAA6QPguEemhb-jx_HZ7Hw" target="_YKxg8PgsEemhb-jx_HZ7Hw" source="_Q5MwwPgsEemhb-jx_HZ7Hw"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="__Vrn8PgxEemhb-jx_HZ7Hw" name="Last ScreenSelected" target="_4zUHIPgxEemhb-jx_HZ7Hw" source="_HbEsoPgwEemhb-jx_HZ7Hw"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_vvjLIPgyEemhb-jx_HZ7Hw" name="Save Setting" target="_HbEsoPgwEemhb-jx_HZ7Hw" source="_8VV44PgwEemhb-jx_HZ7Hw"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_FfvhAPgzEemhb-jx_HZ7Hw" name="Turn off" target="_-E6HIPgyEemhb-jx_HZ7Hw" source="_AxAhAPgzEemhb-jx_HZ7Hw"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_Q5MwwPgsEemhb-jx_HZ7Hw" name="Start" outgoing="_jAA6QPguEemhb-jx_HZ7Hw"/>
+          <node xmi:type="uml:ForkNode" xmi:id="_YKxg8PgsEemhb-jx_HZ7Hw" name="" incoming="_jAA6QPguEemhb-jx_HZ7Hw"/>
+          <node xmi:type="uml:DataStoreNode" xmi:id="_HbEsoPgwEemhb-jx_HZ7Hw" name="Display Settings" incoming="_vvjLIPgyEemhb-jx_HZ7Hw" outgoing="__Vrn8PgxEemhb-jx_HZ7Hw">
+            <upperBound xmi:type="uml:LiteralInteger" xmi:id="_HbFTsPgwEemhb-jx_HZ7Hw" value="1"/>
+          </node>
+          <node xmi:type="uml:DecisionNode" xmi:id="_Jh9goPgwEemhb-jx_HZ7Hw" name="Select Screen"/>
+          <node xmi:type="uml:JoinNode" xmi:id="_g4apsPgwEemhb-jx_HZ7Hw" name="JoinNode13"/>
+          <node xmi:type="uml:AcceptEventAction" xmi:id="_36I44PgwEemhb-jx_HZ7Hw" name="Button Pressed">
+            <result xmi:type="uml:OutputPin" xmi:id="_8VV44PgwEemhb-jx_HZ7Hw" name="Select Desiplay" outgoing="_vvjLIPgyEemhb-jx_HZ7Hw">
+              <upperBound xmi:type="uml:LiteralInteger" xmi:id="_8VWf8PgwEemhb-jx_HZ7Hw" value="1"/>
+            </result>
+            <result xmi:type="uml:OutputPin" xmi:id="_AxAhAPgzEemhb-jx_HZ7Hw" name="Press for 3 seconds" outgoing="_FfvhAPgzEemhb-jx_HZ7Hw">
+              <upperBound xmi:type="uml:LiteralInteger" xmi:id="_AxAhAfgzEemhb-jx_HZ7Hw" value="1"/>
+            </result>
+          </node>
+          <node xmi:type="uml:JoinNode" xmi:id="_4zUHIPgxEemhb-jx_HZ7Hw" name="JoinNode15" incoming="__Vrn8PgxEemhb-jx_HZ7Hw"/>
+          <node xmi:type="uml:FlowFinalNode" xmi:id="_-E6HIPgyEemhb-jx_HZ7Hw" name="Shut Down" incoming="_FfvhAPgzEemhb-jx_HZ7Hw"/>
+        </packagedElement>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oP2I4PCeEemoOf5U7hYdsA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oP82kPCeEemoOf5U7hYdsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
