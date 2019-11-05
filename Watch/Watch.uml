@@ -65,6 +65,54 @@
           <node xmi:type="uml:FlowFinalNode" xmi:id="_-E6HIPgyEemhb-jx_HZ7Hw" name="Shut Down" incoming="_FfvhAPgzEemhb-jx_HZ7Hw"/>
         </packagedElement>
       </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_LPzlgP9iEemWTP7lXo3nlA" name="Uses">
+        <packagedElement xmi:type="uml:Actor" xmi:id="_aXk14P9iEemWTP7lXo3nlA" name="User"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_lnbZgP9iEemWTP7lXo3nlA" name="Reference Time and Date">
+          <include xmi:type="uml:Include" xmi:id="_hg_oQP9lEemWTP7lXo3nlA" addition="_c7L6wP9lEemWTP7lXo3nlA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_udPjoP9iEemWTP7lXo3nlA" name="Get Directions">
+          <include xmi:type="uml:Include" xmi:id="_iVve8P9lEemWTP7lXo3nlA" addition="_c7L6wP9lEemWTP7lXo3nlA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_43QO8P9jEemWTP7lXo3nlA" name="Track Cardiovascular Health">
+          <generalization xmi:type="uml:Generalization" xmi:id="_WH6XcAAmEeqtLLR4L2hvQg" general="_-0LjkP9nEemWTP7lXo3nlA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_JQUvIP9kEemWTP7lXo3nlA" name="Track Physical Activity">
+          <generalization xmi:type="uml:Generalization" xmi:id="_XcEuAAAmEeqtLLR4L2hvQg" general="_-0LjkP9nEemWTP7lXo3nlA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_c7L6wP9lEemWTP7lXo3nlA" name="Unlock Screen"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_6-EfkP9lEemWTP7lXo3nlA" name="Unlock Screen by Pressing Button">
+          <generalization xmi:type="uml:Generalization" xmi:id="_EnvIgP9mEemWTP7lXo3nlA" general="_c7L6wP9lEemWTP7lXo3nlA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_-L3RQP9lEemWTP7lXo3nlA" name="Unlock Screen by Double-Tapping Screen">
+          <generalization xmi:type="uml:Generalization" xmi:id="_G_EMQP9mEemWTP7lXo3nlA" general="_c7L6wP9lEemWTP7lXo3nlA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_-0LjkP9nEemWTP7lXo3nlA" name="Track Health">
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_DOucQP9oEemWTP7lXo3nlA" name="ExtensionPoint1"/>
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FHt-Mf9oEemWTP7lXo3nlA" name="ExtensionPoint2"/>
+          <include xmi:type="uml:Include" xmi:id="_HdrI8P9oEemWTP7lXo3nlA" addition="_c7L6wP9lEemWTP7lXo3nlA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Q4zmoP9oEemWTP7lXo3nlA" memberEnd="_Q45GMv9oEemWTP7lXo3nlA _Q48wkP9oEemWTP7lXo3nlA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q45GMP9oEemWTP7lXo3nlA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q45GMf9oEemWTP7lXo3nlA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_Q45GMv9oEemWTP7lXo3nlA" name="reference time and date" type="_lnbZgP9iEemWTP7lXo3nlA" association="_Q4zmoP9oEemWTP7lXo3nlA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_Q48wkP9oEemWTP7lXo3nlA" name="user" type="_aXk14P9iEemWTP7lXo3nlA" association="_Q4zmoP9oEemWTP7lXo3nlA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_TTCNYP9oEemWTP7lXo3nlA" memberEnd="_TTFQsv9oEemWTP7lXo3nlA _TTFQs_9oEemWTP7lXo3nlA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TTFQsP9oEemWTP7lXo3nlA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TTFQsf9oEemWTP7lXo3nlA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_TTFQsv9oEemWTP7lXo3nlA" name="get directions" type="_udPjoP9iEemWTP7lXo3nlA" association="_TTCNYP9oEemWTP7lXo3nlA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_TTFQs_9oEemWTP7lXo3nlA" name="user" type="_aXk14P9iEemWTP7lXo3nlA" association="_TTCNYP9oEemWTP7lXo3nlA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_VfNxEP9oEemWTP7lXo3nlA" memberEnd="_VfPmQf9oEemWTP7lXo3nlA _VfQNUP9oEemWTP7lXo3nlA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VfO_MP9oEemWTP7lXo3nlA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VfPmQP9oEemWTP7lXo3nlA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_VfPmQf9oEemWTP7lXo3nlA" name="track health" type="_-0LjkP9nEemWTP7lXo3nlA" association="_VfNxEP9oEemWTP7lXo3nlA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_VfQNUP9oEemWTP7lXo3nlA" name="user" type="_aXk14P9iEemWTP7lXo3nlA" association="_VfNxEP9oEemWTP7lXo3nlA"/>
+        </packagedElement>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oP2I4PCeEemoOf5U7hYdsA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oP82kPCeEemoOf5U7hYdsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
