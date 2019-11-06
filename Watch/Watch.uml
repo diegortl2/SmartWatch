@@ -34,7 +34,7 @@
         </profileApplication>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_BHXPsPgsEemhb-jx_HZ7Hw" name="Activities">
-        <packagedElement xmi:type="uml:Activity" xmi:id="_MVulkPgsEemhb-jx_HZ7Hw" name="Activity1" node="_Q5MwwPgsEemhb-jx_HZ7Hw _YKxg8PgsEemhb-jx_HZ7Hw _HbEsoPgwEemhb-jx_HZ7Hw _Jh9goPgwEemhb-jx_HZ7Hw _g4apsPgwEemhb-jx_HZ7Hw _36I44PgwEemhb-jx_HZ7Hw _4zUHIPgxEemhb-jx_HZ7Hw _-E6HIPgyEemhb-jx_HZ7Hw">
+        <packagedElement xmi:type="uml:Activity" xmi:id="_MVulkPgsEemhb-jx_HZ7Hw" name="Activity1" node="_Q5MwwPgsEemhb-jx_HZ7Hw _YKxg8PgsEemhb-jx_HZ7Hw _HbEsoPgwEemhb-jx_HZ7Hw _Jh9goPgwEemhb-jx_HZ7Hw _g4apsPgwEemhb-jx_HZ7Hw _36I44PgwEemhb-jx_HZ7Hw _-E6HIPgyEemhb-jx_HZ7Hw _4zUHIPgxEemhb-jx_HZ7Hw">
           <ownedBehavior xmi:type="uml:Activity" xmi:id="_h5FZUPgsEemhb-jx_HZ7Hw" name="GPS Detect Time and Location"/>
           <ownedBehavior xmi:type="uml:Activity" xmi:id="_NcLa0PgtEemhb-jx_HZ7Hw" name="Detect movement"/>
           <ownedBehavior xmi:type="uml:Activity" xmi:id="_znOZkPgtEemhb-jx_HZ7Hw" name="Detect Rotation"/>
@@ -42,6 +42,7 @@
           <ownedBehavior xmi:type="uml:Activity" xmi:id="_4JQIYPgvEemhb-jx_HZ7Hw" name="Display Cadence"/>
           <ownedBehavior xmi:type="uml:Activity" xmi:id="_-r7yQPgvEemhb-jx_HZ7Hw" name="Display Location"/>
           <ownedBehavior xmi:type="uml:Activity" xmi:id="_d-VeMPgwEemhb-jx_HZ7Hw" name="Wait for Input"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_vXZpgPg1Eemhb-jx_HZ7Hw" name="Detect Heartbeat"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_jAA6QPguEemhb-jx_HZ7Hw" target="_YKxg8PgsEemhb-jx_HZ7Hw" source="_Q5MwwPgsEemhb-jx_HZ7Hw"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="__Vrn8PgxEemhb-jx_HZ7Hw" name="Last ScreenSelected" target="_4zUHIPgxEemhb-jx_HZ7Hw" source="_HbEsoPgwEemhb-jx_HZ7Hw"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_vvjLIPgyEemhb-jx_HZ7Hw" name="Save Setting" target="_HbEsoPgwEemhb-jx_HZ7Hw" source="_8VV44PgwEemhb-jx_HZ7Hw"/>
