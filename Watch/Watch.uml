@@ -34,36 +34,117 @@
         </profileApplication>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_BHXPsPgsEemhb-jx_HZ7Hw" name="Activities">
-        <packagedElement xmi:type="uml:Activity" xmi:id="_MVulkPgsEemhb-jx_HZ7Hw" name="Activity1" node="_Q5MwwPgsEemhb-jx_HZ7Hw _YKxg8PgsEemhb-jx_HZ7Hw _HbEsoPgwEemhb-jx_HZ7Hw _Jh9goPgwEemhb-jx_HZ7Hw _g4apsPgwEemhb-jx_HZ7Hw _36I44PgwEemhb-jx_HZ7Hw _-E6HIPgyEemhb-jx_HZ7Hw _4zUHIPgxEemhb-jx_HZ7Hw">
-          <ownedBehavior xmi:type="uml:Activity" xmi:id="_h5FZUPgsEemhb-jx_HZ7Hw" name="GPS Detect Time and Location"/>
-          <ownedBehavior xmi:type="uml:Activity" xmi:id="_NcLa0PgtEemhb-jx_HZ7Hw" name="Detect movement"/>
-          <ownedBehavior xmi:type="uml:Activity" xmi:id="_znOZkPgtEemhb-jx_HZ7Hw" name="Detect Rotation"/>
-          <ownedBehavior xmi:type="uml:Activity" xmi:id="_1E8C0PgvEemhb-jx_HZ7Hw" name="Display Date and Time"/>
-          <ownedBehavior xmi:type="uml:Activity" xmi:id="_4JQIYPgvEemhb-jx_HZ7Hw" name="Display Cadence"/>
-          <ownedBehavior xmi:type="uml:Activity" xmi:id="_-r7yQPgvEemhb-jx_HZ7Hw" name="Display Location"/>
-          <ownedBehavior xmi:type="uml:Activity" xmi:id="_d-VeMPgwEemhb-jx_HZ7Hw" name="Wait for Input"/>
-          <ownedBehavior xmi:type="uml:Activity" xmi:id="_vXZpgPg1Eemhb-jx_HZ7Hw" name="Detect Heartbeat"/>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_MVulkPgsEemhb-jx_HZ7Hw" name="WatchOperationActivity" node="_Q5MwwPgsEemhb-jx_HZ7Hw _YKxg8PgsEemhb-jx_HZ7Hw _Jh9goPgwEemhb-jx_HZ7Hw _g4apsPgwEemhb-jx_HZ7Hw _36I44PgwEemhb-jx_HZ7Hw _-E6HIPgyEemhb-jx_HZ7Hw _ohorMAQgEeqjXMgfiZ5iGg _8R5JoAQgEeqjXMgfiZ5iGg _DAbeMAQhEeqjXMgfiZ5iGg _VCD3oAQhEeqjXMgfiZ5iGg _csGyMAQhEeqjXMgfiZ5iGg _LAAR8AQjEeqjXMgfiZ5iGg _YdHXUAQjEeqjXMgfiZ5iGg _mPK_sAQoEeqjXMgfiZ5iGg _vhd_kAQqEeqjXMgfiZ5iGg _Uwk6gAQrEeqjXMgfiZ5iGg _8LtoIAQrEeqjXMgfiZ5iGg _iz5ksATCEeqjXMgfiZ5iGg _iHbOUATEEeqjXMgfiZ5iGg _jVVy8ATEEeqjXMgfiZ5iGg _HbEsoPgwEemhb-jx_HZ7Hw" group="_6WDDkATGEeqjXMgfiZ5iGg">
           <edge xmi:type="uml:ControlFlow" xmi:id="_jAA6QPguEemhb-jx_HZ7Hw" target="_YKxg8PgsEemhb-jx_HZ7Hw" source="_Q5MwwPgsEemhb-jx_HZ7Hw"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="__Vrn8PgxEemhb-jx_HZ7Hw" name="Last ScreenSelected" target="_4zUHIPgxEemhb-jx_HZ7Hw" source="_HbEsoPgwEemhb-jx_HZ7Hw"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_vvjLIPgyEemhb-jx_HZ7Hw" name="Save Setting" target="_HbEsoPgwEemhb-jx_HZ7Hw" source="_8VV44PgwEemhb-jx_HZ7Hw"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_FfvhAPgzEemhb-jx_HZ7Hw" name="Turn off" target="_-E6HIPgyEemhb-jx_HZ7Hw" source="_AxAhAPgzEemhb-jx_HZ7Hw"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_Df5SUAQqEeqjXMgfiZ5iGg" target="_mPK_sAQoEeqjXMgfiZ5iGg" source="_YKxg8PgsEemhb-jx_HZ7Hw"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_8x6h8AQqEeqjXMgfiZ5iGg" target="_vhd_kAQqEeqjXMgfiZ5iGg" source="_nrv18AQpEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_A-SbwAQrEeqjXMgfiZ5iGg" target="_DAbeMAQhEeqjXMgfiZ5iGg" source="_vhd_kAQqEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_CO8yYAQrEeqjXMgfiZ5iGg" target="_VCD3oAQhEeqjXMgfiZ5iGg" source="_vhd_kAQqEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_Dc6aUAQrEeqjXMgfiZ5iGg" target="_csGyMAQhEeqjXMgfiZ5iGg" source="_vhd_kAQqEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_3RZqQAQrEeqjXMgfiZ5iGg" target="_Uwk6gAQrEeqjXMgfiZ5iGg" source="_YKxg8PgsEemhb-jx_HZ7Hw"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_93SZIAQrEeqjXMgfiZ5iGg" target="_8LtoIAQrEeqjXMgfiZ5iGg" source="_uQNWkAQrEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="__LM4EAQrEeqjXMgfiZ5iGg" target="_8R5JoAQgEeqjXMgfiZ5iGg" source="_8LtoIAQrEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_AddKIAQsEeqjXMgfiZ5iGg" target="_ohorMAQgEeqjXMgfiZ5iGg" source="_8LtoIAQrEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_evWUsATDEeqjXMgfiZ5iGg" name="[Application Selected]" target="_YdHXUAQjEeqjXMgfiZ5iGg" source="_Jh9goPgwEemhb-jx_HZ7Hw">
+            <guard xmi:type="uml:InstanceValue" xmi:id="_s0yWoATJEeqEJsux8YFCpQ" name="ApplicationSelected" type="_re6I0ATJEeqEJsux8YFCpQ"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_j74rAATDEeqjXMgfiZ5iGg" name="[Default Screen]" target="_LAAR8AQjEeqjXMgfiZ5iGg" source="_Jh9goPgwEemhb-jx_HZ7Hw">
+            <guard xmi:type="uml:InstanceValue" xmi:id="_7VtCYATJEeqEJsux8YFCpQ" name="DefaultScreen" type="_re6I0ATJEeqEJsux8YFCpQ"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_rVMa4ATDEeqjXMgfiZ5iGg" target="_g4apsPgwEemhb-jx_HZ7Hw" source="_YdHXUAQjEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ssSwsATDEeqjXMgfiZ5iGg" target="_g4apsPgwEemhb-jx_HZ7Hw" source="_LAAR8AQjEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_uRbigATDEeqjXMgfiZ5iGg" target="_iz5ksATCEeqjXMgfiZ5iGg" source="_g4apsPgwEemhb-jx_HZ7Hw"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_wDWMEATDEeqjXMgfiZ5iGg" target="_LAAR8AQjEeqjXMgfiZ5iGg" source="_A0Fa0ATDEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_z9MLcATDEeqjXMgfiZ5iGg" interrupts="_6WDDkATGEeqjXMgfiZ5iGg" target="_36I44PgwEemhb-jx_HZ7Hw" source="_LAAR8AQjEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_YLNx8ATGEeqjXMgfiZ5iGg" target="_iHbOUATEEeqjXMgfiZ5iGg" source="_8R5JoAQgEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_cDXIMATGEeqjXMgfiZ5iGg" target="_iHbOUATEEeqjXMgfiZ5iGg" source="_ohorMAQgEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_d36PAATGEeqjXMgfiZ5iGg" target="_jVVy8ATEEeqjXMgfiZ5iGg" source="_DAbeMAQhEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_fZLNcATGEeqjXMgfiZ5iGg" target="_jVVy8ATEEeqjXMgfiZ5iGg" source="_VCD3oAQhEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_kBifsATGEeqjXMgfiZ5iGg" target="_jVVy8ATEEeqjXMgfiZ5iGg" source="_csGyMAQhEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ldoqQATGEeqjXMgfiZ5iGg" target="_mPK_sAQoEeqjXMgfiZ5iGg" source="_jVVy8ATEEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_rz96MATGEeqjXMgfiZ5iGg" target="_Uwk6gAQrEeqjXMgfiZ5iGg" source="_iHbOUATEEeqjXMgfiZ5iGg"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_QNg6kATREeqEJsux8YFCpQ" target="_HbEsoPgwEemhb-jx_HZ7Hw" source="_YKxg8PgsEemhb-jx_HZ7Hw"/>
+          <edge xmi:type="uml:ObjectFlow" xmi:id="_SFcskATREeqEJsux8YFCpQ" target="_Jh9goPgwEemhb-jx_HZ7Hw" source="_HbEsoPgwEemhb-jx_HZ7Hw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_SGRzAATREeqEJsux8YFCpQ" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_SGSaEATREeqEJsux8YFCpQ" value="1"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_6KX-EATREeqEJsux8YFCpQ" target="_HbEsoPgwEemhb-jx_HZ7Hw" source="_8VV44PgwEemhb-jx_HZ7Hw"/>
+          <group xmi:type="uml:InterruptibleActivityRegion" xmi:id="_6WDDkATGEeqjXMgfiZ5iGg" name="InterruptibleActivityRegion" interruptingEdge="_z9MLcATDEeqjXMgfiZ5iGg" node="_HbEsoPgwEemhb-jx_HZ7Hw _LAAR8AQjEeqjXMgfiZ5iGg _YdHXUAQjEeqjXMgfiZ5iGg _Jh9goPgwEemhb-jx_HZ7Hw _g4apsPgwEemhb-jx_HZ7Hw _iz5ksATCEeqjXMgfiZ5iGg"/>
           <node xmi:type="uml:InitialNode" xmi:id="_Q5MwwPgsEemhb-jx_HZ7Hw" name="Start" outgoing="_jAA6QPguEemhb-jx_HZ7Hw"/>
-          <node xmi:type="uml:ForkNode" xmi:id="_YKxg8PgsEemhb-jx_HZ7Hw" name="" incoming="_jAA6QPguEemhb-jx_HZ7Hw"/>
-          <node xmi:type="uml:DataStoreNode" xmi:id="_HbEsoPgwEemhb-jx_HZ7Hw" name="Display Settings" incoming="_vvjLIPgyEemhb-jx_HZ7Hw" outgoing="__Vrn8PgxEemhb-jx_HZ7Hw">
-            <upperBound xmi:type="uml:LiteralInteger" xmi:id="_HbFTsPgwEemhb-jx_HZ7Hw" value="1"/>
-          </node>
-          <node xmi:type="uml:DecisionNode" xmi:id="_Jh9goPgwEemhb-jx_HZ7Hw" name="Select Screen"/>
-          <node xmi:type="uml:JoinNode" xmi:id="_g4apsPgwEemhb-jx_HZ7Hw" name="JoinNode13"/>
-          <node xmi:type="uml:AcceptEventAction" xmi:id="_36I44PgwEemhb-jx_HZ7Hw" name="Button Pressed">
-            <result xmi:type="uml:OutputPin" xmi:id="_8VV44PgwEemhb-jx_HZ7Hw" name="Select Desiplay" outgoing="_vvjLIPgyEemhb-jx_HZ7Hw">
+          <node xmi:type="uml:ForkNode" xmi:id="_YKxg8PgsEemhb-jx_HZ7Hw" name="" incoming="_jAA6QPguEemhb-jx_HZ7Hw" outgoing="_Df5SUAQqEeqjXMgfiZ5iGg _3RZqQAQrEeqjXMgfiZ5iGg _QNg6kATREeqEJsux8YFCpQ"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_Jh9goPgwEemhb-jx_HZ7Hw" name="Select Screen" inInterruptibleRegion="_6WDDkATGEeqjXMgfiZ5iGg" incoming="_SFcskATREeqEJsux8YFCpQ" outgoing="_evWUsATDEeqjXMgfiZ5iGg _j74rAATDEeqjXMgfiZ5iGg"/>
+          <node xmi:type="uml:JoinNode" xmi:id="_g4apsPgwEemhb-jx_HZ7Hw" name="" inInterruptibleRegion="_6WDDkATGEeqjXMgfiZ5iGg" incoming="_rVMa4ATDEeqjXMgfiZ5iGg _ssSwsATDEeqjXMgfiZ5iGg" outgoing="_uRbigATDEeqjXMgfiZ5iGg"/>
+          <node xmi:type="uml:AcceptEventAction" xmi:id="_36I44PgwEemhb-jx_HZ7Hw" name="Button Pressed" incoming="_z9MLcATDEeqjXMgfiZ5iGg">
+            <result xmi:type="uml:OutputPin" xmi:id="_8VV44PgwEemhb-jx_HZ7Hw" name="Select Desiplay" outgoing="_6KX-EATREeqEJsux8YFCpQ" isControlType="true">
               <upperBound xmi:type="uml:LiteralInteger" xmi:id="_8VWf8PgwEemhb-jx_HZ7Hw" value="1"/>
             </result>
-            <result xmi:type="uml:OutputPin" xmi:id="_AxAhAPgzEemhb-jx_HZ7Hw" name="Press for 3 seconds" outgoing="_FfvhAPgzEemhb-jx_HZ7Hw">
+            <result xmi:type="uml:OutputPin" xmi:id="_AxAhAPgzEemhb-jx_HZ7Hw" name="Press for 3 seconds" outgoing="_FfvhAPgzEemhb-jx_HZ7Hw" isControlType="true">
               <upperBound xmi:type="uml:LiteralInteger" xmi:id="_AxAhAfgzEemhb-jx_HZ7Hw" value="1"/>
             </result>
           </node>
-          <node xmi:type="uml:JoinNode" xmi:id="_4zUHIPgxEemhb-jx_HZ7Hw" name="JoinNode15" incoming="__Vrn8PgxEemhb-jx_HZ7Hw"/>
           <node xmi:type="uml:FlowFinalNode" xmi:id="_-E6HIPgyEemhb-jx_HZ7Hw" name="Shut Down" incoming="_FfvhAPgzEemhb-jx_HZ7Hw"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_ohorMAQgEeqjXMgfiZ5iGg" name="Detect Date &amp; Time" incoming="_AddKIAQsEeqjXMgfiZ5iGg" outgoing="_cDXIMATGEeqjXMgfiZ5iGg"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_8R5JoAQgEeqjXMgfiZ5iGg" name="Detect Location" incoming="__LM4EAQrEeqjXMgfiZ5iGg" outgoing="_YLNx8ATGEeqjXMgfiZ5iGg"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_DAbeMAQhEeqjXMgfiZ5iGg" name="Detect Movement" incoming="_A-SbwAQrEeqjXMgfiZ5iGg" outgoing="_d36PAATGEeqjXMgfiZ5iGg"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_VCD3oAQhEeqjXMgfiZ5iGg" name="Detect Rotation" incoming="_CO8yYAQrEeqjXMgfiZ5iGg" outgoing="_fZLNcATGEeqjXMgfiZ5iGg"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_csGyMAQhEeqjXMgfiZ5iGg" name="Detect Heartbeat" incoming="_Dc6aUAQrEeqjXMgfiZ5iGg" outgoing="_kBifsATGEeqjXMgfiZ5iGg"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_LAAR8AQjEeqjXMgfiZ5iGg" name="Display Date &amp; Time" inInterruptibleRegion="_6WDDkATGEeqjXMgfiZ5iGg" incoming="_j74rAATDEeqjXMgfiZ5iGg _wDWMEATDEeqjXMgfiZ5iGg" outgoing="_ssSwsATDEeqjXMgfiZ5iGg _z9MLcATDEeqjXMgfiZ5iGg"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_YdHXUAQjEeqjXMgfiZ5iGg" name="Display Selected App Data" inInterruptibleRegion="_6WDDkATGEeqjXMgfiZ5iGg" incoming="_evWUsATDEeqjXMgfiZ5iGg" outgoing="_rVMa4ATDEeqjXMgfiZ5iGg"/>
+          <node xmi:type="uml:AcceptEventAction" xmi:id="_mPK_sAQoEeqjXMgfiZ5iGg" name="60hz" incoming="_Df5SUAQqEeqjXMgfiZ5iGg _ldoqQATGEeqjXMgfiZ5iGg">
+            <result xmi:type="uml:OutputPin" xmi:id="_nrv18AQpEeqjXMgfiZ5iGg" name="time" outgoing="_8x6h8AQqEeqjXMgfiZ5iGg" isControlType="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+              <upperBound xmi:type="uml:LiteralInteger" xmi:id="_nry5QQQpEeqjXMgfiZ5iGg" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nrxEEAQpEeqjXMgfiZ5iGg" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nrxEEQQpEeqjXMgfiZ5iGg" value="1"/>
+            </result>
+            <trigger xmi:type="uml:Trigger" xmi:id="_pboUoAQoEeqjXMgfiZ5iGg" name="Trigger1" event="_GZr_YAQpEeqjXMgfiZ5iGg"/>
+          </node>
+          <node xmi:type="uml:ForkNode" xmi:id="_vhd_kAQqEeqjXMgfiZ5iGg" name="" incoming="_8x6h8AQqEeqjXMgfiZ5iGg" outgoing="_A-SbwAQrEeqjXMgfiZ5iGg _CO8yYAQrEeqjXMgfiZ5iGg _Dc6aUAQrEeqjXMgfiZ5iGg"/>
+          <node xmi:type="uml:AcceptEventAction" xmi:id="_Uwk6gAQrEeqjXMgfiZ5iGg" name="1 Second" incoming="_3RZqQAQrEeqjXMgfiZ5iGg _rz96MATGEeqjXMgfiZ5iGg">
+            <result xmi:type="uml:OutputPin" xmi:id="_uQNWkAQrEeqjXMgfiZ5iGg" name="time" outgoing="_93SZIAQrEeqjXMgfiZ5iGg" isControlType="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+              <upperBound xmi:type="uml:LiteralInteger" xmi:id="_uQOksQQrEeqjXMgfiZ5iGg" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uQN9oAQrEeqjXMgfiZ5iGg" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uQN9oQQrEeqjXMgfiZ5iGg" value="1"/>
+            </result>
+            <trigger xmi:type="uml:Trigger" xmi:id="_moQtwAQrEeqjXMgfiZ5iGg" name="Trigger1" event="_p8Yw8AQrEeqjXMgfiZ5iGg"/>
+          </node>
+          <node xmi:type="uml:ForkNode" xmi:id="_8LtoIAQrEeqjXMgfiZ5iGg" name="" incoming="_93SZIAQrEeqjXMgfiZ5iGg" outgoing="__LM4EAQrEeqjXMgfiZ5iGg _AddKIAQsEeqjXMgfiZ5iGg"/>
+          <node xmi:type="uml:AcceptEventAction" xmi:id="_iz5ksATCEeqjXMgfiZ5iGg" name="Screen Timeout" inInterruptibleRegion="_6WDDkATGEeqjXMgfiZ5iGg" incoming="_uRbigATDEeqjXMgfiZ5iGg">
+            <result xmi:type="uml:OutputPin" xmi:id="_A0Fa0ATDEeqjXMgfiZ5iGg" name="time" outgoing="_wDWMEATDEeqjXMgfiZ5iGg" isControlType="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+              <upperBound xmi:type="uml:LiteralInteger" xmi:id="_A0ts8ATDEeqjXMgfiZ5iGg" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A0cAIATDEeqjXMgfiZ5iGg" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A0iGwATDEeqjXMgfiZ5iGg" value="1"/>
+            </result>
+            <trigger xmi:type="uml:Trigger" xmi:id="_A0C-kATDEeqjXMgfiZ5iGg" event="_1q9xUATCEeqjXMgfiZ5iGg"/>
+          </node>
+          <node xmi:type="uml:JoinNode" xmi:id="_iHbOUATEEeqjXMgfiZ5iGg" name="" incoming="_YLNx8ATGEeqjXMgfiZ5iGg _cDXIMATGEeqjXMgfiZ5iGg" outgoing="_rz96MATGEeqjXMgfiZ5iGg"/>
+          <node xmi:type="uml:JoinNode" xmi:id="_jVVy8ATEEeqjXMgfiZ5iGg" name="" incoming="_d36PAATGEeqjXMgfiZ5iGg _fZLNcATGEeqjXMgfiZ5iGg _kBifsATGEeqjXMgfiZ5iGg" outgoing="_ldoqQATGEeqjXMgfiZ5iGg"/>
+          <node xmi:type="uml:DataStoreNode" xmi:id="_HbEsoPgwEemhb-jx_HZ7Hw" name="Display Settings" inInterruptibleRegion="_6WDDkATGEeqjXMgfiZ5iGg" incoming="_QNg6kATREeqEJsux8YFCpQ _6KX-EATREeqEJsux8YFCpQ" outgoing="_SFcskATREeqEJsux8YFCpQ">
+            <upperBound xmi:type="uml:LiteralInteger" xmi:id="_HbFTsPgwEemhb-jx_HZ7Hw" value="1"/>
+          </node>
+        </packagedElement>
+        <packagedElement xmi:type="uml:TimeEvent" xmi:id="_GZr_YAQpEeqjXMgfiZ5iGg" name="60hz" isRelative="true">
+          <when xmi:type="uml:TimeExpression" xmi:id="_RFIRUATMEeqEJsux8YFCpQ" name="60hz">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            <expr xmi:type="uml:LiteralReal" xmi:id="_RFIRUQTMEeqEJsux8YFCpQ" name="60hz" value="0.0166"/>
+          </when>
+        </packagedElement>
+        <packagedElement xmi:type="uml:TimeEvent" xmi:id="_p8Yw8AQrEeqjXMgfiZ5iGg" name="1 Second">
+          <when xmi:type="uml:TimeExpression" xmi:id="_cn3UsATMEeqEJsux8YFCpQ" name="1sec">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            <expr xmi:type="uml:LiteralReal" xmi:id="_cn3UsQTMEeqEJsux8YFCpQ" name="1sec" value="1.0"/>
+          </when>
+        </packagedElement>
+        <packagedElement xmi:type="uml:TimeEvent" xmi:id="_1q9xUATCEeqjXMgfiZ5iGg" name="Screen Timeout">
+          <when xmi:type="uml:TimeExpression" xmi:id="_ykbSoATMEeqEJsux8YFCpQ" name="Timeout">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+            <expr xmi:type="uml:Expression" xmi:id="_ykbSoQTMEeqEJsux8YFCpQ" name="Timeout" symbol="InactiveTime > TimeoutTime">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+            </expr>
+          </when>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_LPzlgP9iEemWTP7lXo3nlA" name="Uses">
@@ -114,6 +195,7 @@
           <ownedEnd xmi:type="uml:Property" xmi:id="_VfQNUP9oEemWTP7lXo3nlA" name="user" type="_aXk14P9iEemWTP7lXo3nlA" association="_VfNxEP9oEemWTP7lXo3nlA"/>
         </packagedElement>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_re6I0ATJEeqEJsux8YFCpQ" name="Application" isAbstract="true" isActive="true"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oP2I4PCeEemoOf5U7hYdsA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oP82kPCeEemoOf5U7hYdsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
