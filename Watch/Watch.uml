@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:DeprecatedElements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/DeprecatedElements" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.4/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/DeprecatedElements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements http://www.eclipse.org/papyrus/sysml/1.4/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
   <uml:Model xmi:id="_oD3iYPCeEemoOf5U7hYdsA" name="Watch">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_oU0vgPCeEemoOf5U7hYdsA">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -197,7 +197,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_re6I0ATJEeqEJsux8YFCpQ" name="Application" isAbstract="true" isActive="true"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_psU70An2EeqFjqGDjVUNPA" name="Parametric"/>
-      <packagedElement xmi:type="uml:Package" xmi:id="_33_CEAoeEeqXD6ZCpAvDgg" name="Blocks">
+      <packagedElement xmi:type="uml:Package" xmi:id="_33_CEAoeEeqXD6ZCpAvDgg" name="Block Definition">
         <packagedElement xmi:type="uml:Package" xmi:id="_HJ7-cAn5EeqFjqGDjVUNPA" name="Data Types">
           <packagedElement xmi:type="uml:DataType" xmi:id="_wEOKoAn5EeqFjqGDjVUNPA" name="Integer"/>
           <packagedElement xmi:type="uml:DataType" xmi:id="_K9ZzkAn6EeqFjqGDjVUNPA" name="Float"/>
@@ -205,10 +205,6 @@
           <packagedElement xmi:type="uml:DataType" xmi:id="_NWqxMAofEeqXD6ZCpAvDgg" name="Double"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_sgFc4An2EeqFjqGDjVUNPA" name="Watch">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_htcu0An4EeqFjqGDjVUNPA" name="Position" type="_NWqxMAofEeqXD6ZCpAvDgg" aggregation="composite" isDerived="true">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Q_ob8AofEeqXD6ZCpAvDgg" value="2"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Q_2eYAofEeqXD6ZCpAvDgg" value="2"/>
-          </ownedAttribute>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_NTldQAn5EeqFjqGDjVUNPA" name="Orientation" type="_NWqxMAofEeqXD6ZCpAvDgg" aggregation="composite" isDerived="true">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UTwMMAosEeqXD6ZCpAvDgg" value="3"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UUEVQAosEeqXD6ZCpAvDgg" value="3"/>
@@ -220,7 +216,7 @@
           <ownedAttribute xmi:type="uml:Property" xmi:id="_nzJsUAn5EeqFjqGDjVUNPA" name="Heart Rate" type="_wEOKoAn5EeqFjqGDjVUNPA" aggregation="composite" isDerived="true"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_FongMAn6EeqFjqGDjVUNPA" name="Time" type="_K9ZzkAn6EeqFjqGDjVUNPA" aggregation="composite" isDerived="true"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_PPeFsAn6EeqFjqGDjVUNPA" name="screenPressed" type="_R5likAn6EeqFjqGDjVUNPA" aggregation="composite" isDerived="true"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_VKTscAn6EeqFjqGDjVUNPA" name="buttonPressed" type="_R5likAn6EeqFjqGDjVUNPA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_VKTscAn6EeqFjqGDjVUNPA" name="buttonPressed" type="_R5likAn6EeqFjqGDjVUNPA" aggregation="composite" isDerived="true"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_qFqnEgoxEeqXD6ZCpAvDgg" name="ac" type="_jA8ZYAosEeqXD6ZCpAvDgg" aggregation="composite" association="_qFnjwAoxEeqXD6ZCpAvDgg">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qF0YEAoxEeqXD6ZCpAvDgg" value="1"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qF5QkAoxEeqXD6ZCpAvDgg" value="1"/>
@@ -245,11 +241,20 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_n8rPYAozEeqXD6ZCpAvDgg" value="1"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_n8rPYQozEeqXD6ZCpAvDgg" value="1"/>
           </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_RYpk0ApfEeqXD6ZCpAvDgg" name="Position" type="_NWqxMAofEeqXD6ZCpAvDgg" isDerived="true">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_T7YAQApfEeqXD6ZCpAvDgg" value="3"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T7mpwApfEeqXD6ZCpAvDgg" value="3"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_d8KvwApfEeqXD6ZCpAvDgg" name="accelerometer" type="_jA8ZYAosEeqXD6ZCpAvDgg"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_jA8ZYAosEeqXD6ZCpAvDgg" name="Accelerometer">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_qdPy4AosEeqXD6ZCpAvDgg" name="yPosition" type="_NWqxMAofEeqXD6ZCpAvDgg"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_ewYGoAotEeqXD6ZCpAvDgg" name="zPosition" type="_NWqxMAofEeqXD6ZCpAvDgg"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_lc8FQAotEeqXD6ZCpAvDgg" name="xPosition" type="_NWqxMAofEeqXD6ZCpAvDgg"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_X4bogApbEeqXD6ZCpAvDgg" name="Position" visibility="public" type="_NWqxMAofEeqXD6ZCpAvDgg" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0P1i8ApbEeqXD6ZCpAvDgg" value="3"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0QN9cApbEeqXD6ZCpAvDgg" value="3"/>
+          </ownedAttribute>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_pH8XYAotEeqXD6ZCpAvDgg" name="sense"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_3ZZq0AotEeqXD6ZCpAvDgg" name="Gyroscope">
@@ -316,6 +321,9 @@
           </eAnnotations>
           <ownedEnd xmi:type="uml:Property" xmi:id="_n8rPYgozEeqXD6ZCpAvDgg" type="_sgFc4An2EeqFjqGDjVUNPA" association="_n8ozIAozEeqXD6ZCpAvDgg"/>
         </packagedElement>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_85gSAApcEeqXD6ZCpAvDgg" conveyed="_NWqxMAofEeqXD6ZCpAvDgg" informationSource="_lc8FQAotEeqXD6ZCpAvDgg" informationTarget="_X4bogApbEeqXD6ZCpAvDgg"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_JTWjkApdEeqXD6ZCpAvDgg" conveyed="_NWqxMAofEeqXD6ZCpAvDgg" informationSource="_qdPy4AosEeqXD6ZCpAvDgg" informationTarget="_X4bogApbEeqXD6ZCpAvDgg"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_KQ37wApdEeqXD6ZCpAvDgg" conveyed="_NWqxMAofEeqXD6ZCpAvDgg" informationSource="_ewYGoAotEeqXD6ZCpAvDgg" informationTarget="_X4bogApbEeqXD6ZCpAvDgg"/>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oP2I4PCeEemoOf5U7hYdsA">
@@ -407,4 +415,8 @@
   <Blocks:Block xmi:id="_XXn68AouEeqXD6ZCpAvDgg" base_Class="_XXjCcAouEeqXD6ZCpAvDgg"/>
   <Blocks:Block xmi:id="_la4aUAouEeqXD6ZCpAvDgg" base_Class="_lawegAouEeqXD6ZCpAvDgg"/>
   <Blocks:Block xmi:id="_4JzXkAouEeqXD6ZCpAvDgg" base_Class="_4Jsp4AouEeqXD6ZCpAvDgg"/>
+  <DeprecatedElements:FlowPort xmi:id="_X4bogQpbEeqXD6ZCpAvDgg" base_Port="_X4bogApbEeqXD6ZCpAvDgg" direction="out"/>
+  <PortsAndFlows:ItemFlow xmi:id="_85gSAQpcEeqXD6ZCpAvDgg" base_InformationFlow="_85gSAApcEeqXD6ZCpAvDgg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_JTWjkQpdEeqXD6ZCpAvDgg" base_InformationFlow="_JTWjkApdEeqXD6ZCpAvDgg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_KQ80QApdEeqXD6ZCpAvDgg" base_InformationFlow="_KQ37wApdEeqXD6ZCpAvDgg"/>
 </xmi:XMI>
