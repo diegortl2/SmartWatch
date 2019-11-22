@@ -171,6 +171,9 @@
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_re6I0ATJEeqEJsux8YFCpQ" name="Application" isAbstract="true" isActive="true"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_IzHqcA11Eeq6HapPHiKqMQ" name="Sequence">
+        <packagedElement xmi:type="uml:Interaction" xmi:id="_ZL4ooA11Eeq6HapPHiKqMQ" name="Interaction1"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_PLlxwArrEeqK1vOMg50rUQ" name="Structure">
       <packagedElement xmi:type="uml:Package" xmi:id="_33_CEAoeEeqXD6ZCpAvDgg" name="Block Definition">
@@ -191,7 +194,10 @@
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_nzJsUAn5EeqFjqGDjVUNPA" name="Heart Rate" type="_wEOKoAn5EeqFjqGDjVUNPA" aggregation="composite" isDerived="true"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_FongMAn6EeqFjqGDjVUNPA" name="Time" type="_K9ZzkAn6EeqFjqGDjVUNPA" aggregation="composite" isDerived="true"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_PPeFsAn6EeqFjqGDjVUNPA" name="screenPressed" type="_R5likAn6EeqFjqGDjVUNPA" aggregation="composite" isDerived="true"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_PPeFsAn6EeqFjqGDjVUNPA" name="pixelsPressed" type="_R5likAn6EeqFjqGDjVUNPA" aggregation="composite" isDerived="true">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t_OX4A15Eeq6HapPHiKqMQ" value="121680"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t_dBYA15Eeq6HapPHiKqMQ" value="121680"/>
+          </ownedAttribute>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_VKTscAn6EeqFjqGDjVUNPA" name="buttonPressed" type="_R5likAn6EeqFjqGDjVUNPA" aggregation="composite" isDerived="true"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_qFqnEgoxEeqXD6ZCpAvDgg" name="ac" type="_jA8ZYAosEeqXD6ZCpAvDgg" aggregation="composite" association="_qFnjwAoxEeqXD6ZCpAvDgg">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qF0YEAoxEeqXD6ZCpAvDgg" value="1"/>
@@ -225,6 +231,10 @@
           <ownedAttribute xmi:type="uml:Port" xmi:id="_yTsokApqEeqN3689kHlnTw" name="FlowPort15" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_zIil4ApqEeqN3689kHlnTw" name="GPSSenor" visibility="public" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_z7K8sApqEeqN3689kHlnTw" name="FlowPort17" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_zmRf8A15Eeq6HapPHiKqMQ" name="pixels" type="_wEOKoAn5EeqFjqGDjVUNPA" isDerived="true">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5uliAA15Eeq6HapPHiKqMQ" value="121680"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5u0LgA15Eeq6HapPHiKqMQ" value="121680"/>
+          </ownedAttribute>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_jA8ZYAosEeqXD6ZCpAvDgg" name="Accelerometer">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_qdPy4AosEeqXD6ZCpAvDgg" name="yPosition" type="_NWqxMAofEeqXD6ZCpAvDgg"/>
@@ -258,18 +268,22 @@
           <ownedOperation xmi:type="uml:Operation" xmi:id="_S2WIIAouEeqXD6ZCpAvDgg" name="getTime"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_XXjCcAouEeqXD6ZCpAvDgg" name="PhotodiodeSensor">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_v-YAcArtEeqK1vOMg50rUQ" name="Light Level" visibility="public" type="_NWqxMAofEeqXD6ZCpAvDgg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_v-YAcArtEeqK1vOMg50rUQ" name="lightLevel" visibility="public" type="_NWqxMAofEeqXD6ZCpAvDgg"/>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_eDadgAouEeqXD6ZCpAvDgg" name="passiveSense"/>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_f9N3wAouEeqXD6ZCpAvDgg" name="activeSense"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_lawegAouEeqXD6ZCpAvDgg" name="TouchScreen">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_p2g4IAouEeqXD6ZCpAvDgg" name="pixelState" type="_wEOKoAn5EeqFjqGDjVUNPA">
+        <packagedElement xmi:type="uml:Class" xmi:id="_lawegAouEeqXD6ZCpAvDgg" name="Touch Screen">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_p2g4IAouEeqXD6ZCpAvDgg" name="pixels" type="_wEOKoAn5EeqFjqGDjVUNPA">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_u7_kMAouEeqXD6ZCpAvDgg" value="121680"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u8SfIAouEeqXD6ZCpAvDgg" value="121680"/>
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_DvElMAppEeqN3689kHlnTw" name="TouchScreen" type="_wEOKoAn5EeqFjqGDjVUNPA" aggregation="composite">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RYqnYAppEeqN3689kHlnTw" value="121680"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RYu40AppEeqN3689kHlnTw" value="121680"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_kC__UA15Eeq6HapPHiKqMQ" name="pixelsPressed" type="_R5likAn6EeqFjqGDjVUNPA">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_n-s_4A15Eeq6HapPHiKqMQ" value="121680"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_n-7pYA15Eeq6HapPHiKqMQ" value="121680"/>
           </ownedAttribute>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_xsyQ0AouEeqXD6ZCpAvDgg" name="sense"/>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_yqa9wAouEeqXD6ZCpAvDgg" name="refresh"/>
