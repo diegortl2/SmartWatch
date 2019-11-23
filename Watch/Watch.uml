@@ -235,6 +235,9 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5uliAA15Eeq6HapPHiKqMQ" value="121680"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5u0LgA15Eeq6HapPHiKqMQ" value="121680"/>
           </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_7PN8YA17Eeqmk8eDrMrnPw" name="FlowPort19" visibility="package" type="_NWqxMAofEeqXD6ZCpAvDgg" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_FLEPkA1-Eeqmk8eDrMrnPw" name="FlowPort20" visibility="package" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_FMbIMA2DEeqmk8eDrMrnPw" name="FlowPort21" visibility="public" aggregation="composite"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_jA8ZYAosEeqXD6ZCpAvDgg" name="Accelerometer">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_qdPy4AosEeqXD6ZCpAvDgg" name="yPosition" type="_NWqxMAofEeqXD6ZCpAvDgg"/>
@@ -269,6 +272,7 @@
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_XXjCcAouEeqXD6ZCpAvDgg" name="PhotodiodeSensor">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_v-YAcArtEeqK1vOMg50rUQ" name="lightLevel" visibility="public" type="_NWqxMAofEeqXD6ZCpAvDgg"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_g0dU0A17Eeqmk8eDrMrnPw" name="FlowPort4" type="_NWqxMAofEeqXD6ZCpAvDgg" aggregation="composite"/>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_eDadgAouEeqXD6ZCpAvDgg" name="passiveSense"/>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_f9N3wAouEeqXD6ZCpAvDgg" name="activeSense"/>
         </packagedElement>
@@ -285,11 +289,16 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_n-s_4A15Eeq6HapPHiKqMQ" value="121680"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_n-7pYA15Eeq6HapPHiKqMQ" value="121680"/>
           </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_wQ8MwA2CEeqmk8eDrMrnPw" name="FlowPort6" visibility="package" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TxVRMA2FEeqmk8eDrMrnPw" value="121680"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TxYUgA2FEeqmk8eDrMrnPw" value="121680"/>
+          </ownedAttribute>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_xsyQ0AouEeqXD6ZCpAvDgg" name="sense"/>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_yqa9wAouEeqXD6ZCpAvDgg" name="refresh"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_4Jsp4AouEeqXD6ZCpAvDgg" name="SideButton">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_42kJIArtEeqK1vOMg50rUQ" name="isPressed" type="_R5likAn6EeqFjqGDjVUNPA"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_izxyIA2EEeqmk8eDrMrnPw" name="FlowPort3" aggregation="composite"/>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_pZ-bMAowEeqXD6ZCpAvDgg" name="sense"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_qFnjwAoxEeqXD6ZCpAvDgg" memberEnd="_qFqnEgoxEeqXD6ZCpAvDgg _qF-wIAoxEeqXD6ZCpAvDgg">
@@ -340,12 +349,21 @@
         <packagedElement xmi:type="uml:InformationFlow" xmi:id="_K5UlYAppEeqN3689kHlnTw" name="pixelState" conveyed="_wEOKoAn5EeqFjqGDjVUNPA" informationSource="_p2g4IAouEeqXD6ZCpAvDgg" informationTarget="_DvElMAppEeqN3689kHlnTw"/>
         <packagedElement xmi:type="uml:InformationFlow" xmi:id="_cE3rYAppEeqN3689kHlnTw" name="ItemFlow25" conveyed="_NWqxMAofEeqXD6ZCpAvDgg" informationSource="_qFqnEgoxEeqXD6ZCpAvDgg" informationTarget="_WUuRsAppEeqN3689kHlnTw"/>
         <packagedElement xmi:type="uml:InformationFlow" xmi:id="_dY0mkAppEeqN3689kHlnTw" name="ItemFlow26" conveyed="_NWqxMAofEeqXD6ZCpAvDgg" informationSource="_WUuRsAppEeqN3689kHlnTw" informationTarget="_RYpk0ApfEeqXD6ZCpAvDgg"/>
-        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_iJdZIAprEeqN3689kHlnTw" name="ItemFlow27" visibility="public" conveyed="_NWqxMAofEeqXD6ZCpAvDgg" informationSource="_ptapsgoyEeqXD6ZCpAvDgg" informationTarget="_sgFc4An2EeqFjqGDjVUNPA"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_iJdZIAprEeqN3689kHlnTw" name="ItemFlow27" visibility="public" conveyed="_NWqxMAofEeqXD6ZCpAvDgg" informationSource="_ptapsgoyEeqXD6ZCpAvDgg" informationTarget="_sgFc4An2EeqFjqGDjVUNPA _zIil4ApqEeqN3689kHlnTw"/>
         <packagedElement xmi:type="uml:InformationFlow" xmi:id="_kPss4AprEeqN3689kHlnTw" name="ItemFlow28" conveyed="_NWqxMAofEeqXD6ZCpAvDgg" informationSource="_zIil4ApqEeqN3689kHlnTw" informationTarget="_cnkksAn5EeqFjqGDjVUNPA"/>
         <packagedElement xmi:type="uml:InformationFlow" xmi:id="_0pMD0AprEeqN3689kHlnTw" name="ItemFlow29" conveyed="_R5likAn6EeqFjqGDjVUNPA" informationSource="_n8qBQgozEeqXD6ZCpAvDgg" informationTarget="_yTsokApqEeqN3689kHlnTw"/>
-        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_1rDJcAprEeqN3689kHlnTw" name="ItemFlow30" conveyed="_R5likAn6EeqFjqGDjVUNPA" informationSource="_sgFc4An2EeqFjqGDjVUNPA" informationTarget="_VKTscAn6EeqFjqGDjVUNPA"/>
-        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_-EQ3IAprEeqN3689kHlnTw" name="ItemFlow31" conveyed="_R5likAn6EeqFjqGDjVUNPA" informationSource="_BhwoogozEeqXD6ZCpAvDgg" informationTarget="_z7K8sApqEeqN3689kHlnTw"/>
-        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_CsHMAApsEeqN3689kHlnTw" name="ItemFlow32" conveyed="_R5likAn6EeqFjqGDjVUNPA" informationSource="_z7K8sApqEeqN3689kHlnTw" informationTarget="_PPeFsAn6EeqFjqGDjVUNPA"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_1rDJcAprEeqN3689kHlnTw" name="ItemFlow30" conveyed="_R5likAn6EeqFjqGDjVUNPA" informationSource="_sgFc4An2EeqFjqGDjVUNPA _yTsokApqEeqN3689kHlnTw" informationTarget="_VKTscAn6EeqFjqGDjVUNPA"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_oD4I4A17Eeqmk8eDrMrnPw" name="ItemFlow33" visibility="public" conveyed="_NWqxMAofEeqXD6ZCpAvDgg" informationSource="_v-YAcArtEeqK1vOMg50rUQ" informationTarget="_g0dU0A17Eeqmk8eDrMrnPw"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_FHS0wA18Eeqmk8eDrMrnPw" name="ItemFlow34" conveyed="_NWqxMAofEeqXD6ZCpAvDgg" informationSource="_pL9icgoyEeqXD6ZCpAvDgg" informationTarget="_7PN8YA17Eeqmk8eDrMrnPw"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_4-97kA18Eeqmk8eDrMrnPw" name="ItemFlow35" visibility="public" conveyed="_NWqxMAofEeqXD6ZCpAvDgg" informationSource="_7PN8YA17Eeqmk8eDrMrnPw" informationTarget="_NTldQAn5EeqFjqGDjVUNPA"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_J1y5UA1-Eeqmk8eDrMrnPw" name="ItemFlow36" conveyed="_wEOKoAn5EeqFjqGDjVUNPA" informationSource="_qPNIIgoyEeqXD6ZCpAvDgg" informationTarget="_FLEPkA1-Eeqmk8eDrMrnPw"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_LAyFwA1-Eeqmk8eDrMrnPw" name="ItemFlow37" conveyed="_wEOKoAn5EeqFjqGDjVUNPA" informationSource="_FLEPkA1-Eeqmk8eDrMrnPw" informationTarget="_nzJsUAn5EeqFjqGDjVUNPA"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_KAc34A2DEeqmk8eDrMrnPw" name="ItemFlow44" conveyed="_wEOKoAn5EeqFjqGDjVUNPA" informationSource="_BhwoogozEeqXD6ZCpAvDgg" informationTarget="_z7K8sApqEeqN3689kHlnTw"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_Pty1MA2DEeqmk8eDrMrnPw" name="ItemFlow43" visibility="public" conveyed="_wEOKoAn5EeqFjqGDjVUNPA" informationSource="_z7K8sApqEeqN3689kHlnTw" informationTarget="_PPeFsAn6EeqFjqGDjVUNPA _zmRf8A15Eeq6HapPHiKqMQ"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_l_HswA2EEeqmk8eDrMrnPw" name="ItemFlow41" conveyed="_R5likAn6EeqFjqGDjVUNPA" informationSource="_42kJIArtEeqK1vOMg50rUQ" informationTarget="_izxyIA2EEeqmk8eDrMrnPw"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_pKiqcA2FEeqmk8eDrMrnPw" name="ItemFlow40" conveyed="_R5likAn6EeqFjqGDjVUNPA" informationSource="_PPeFsAn6EeqFjqGDjVUNPA" informationTarget="_sgFc4An2EeqFjqGDjVUNPA _FMbIMA2DEeqmk8eDrMrnPw"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_rsPyMA2FEeqmk8eDrMrnPw" name="ItemFlow42" conveyed="_R5likAn6EeqFjqGDjVUNPA" informationSource="_sgFc4An2EeqFjqGDjVUNPA" informationTarget="_BhwoogozEeqXD6ZCpAvDgg"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_8H6TYA2FEeqmk8eDrMrnPw" name="ItemFlow45" conveyed="_R5likAn6EeqFjqGDjVUNPA" informationSource="_wQ8MwA2CEeqmk8eDrMrnPw" informationTarget="_kC__UA15Eeq6HapPHiKqMQ"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_lnD20PCgEemoOf5U7hYdsA" name="Requirements">
@@ -486,6 +504,21 @@
   <PortsAndFlows:ItemFlow xmi:id="_kPuiEAprEeqN3689kHlnTw" base_InformationFlow="_kPss4AprEeqN3689kHlnTw"/>
   <PortsAndFlows:ItemFlow xmi:id="_0pN5AAprEeqN3689kHlnTw" base_InformationFlow="_0pMD0AprEeqN3689kHlnTw"/>
   <PortsAndFlows:ItemFlow xmi:id="_1rFlsAprEeqN3689kHlnTw" base_InformationFlow="_1rDJcAprEeqN3689kHlnTw"/>
-  <PortsAndFlows:ItemFlow xmi:id="_-ETTYAprEeqN3689kHlnTw" base_InformationFlow="_-EQ3IAprEeqN3689kHlnTw"/>
-  <PortsAndFlows:ItemFlow xmi:id="_CsIaIApsEeqN3689kHlnTw" base_InformationFlow="_CsHMAApsEeqN3689kHlnTw"/>
+  <DeprecatedElements:FlowPort xmi:id="_g0slYA17Eeqmk8eDrMrnPw" base_Port="_g0dU0A17Eeqmk8eDrMrnPw" direction="out"/>
+  <PortsAndFlows:ItemFlow xmi:id="_oD9ocA17Eeqmk8eDrMrnPw" base_InformationFlow="_oD4I4A17Eeqmk8eDrMrnPw"/>
+  <DeprecatedElements:FlowPort xmi:id="_7PQ_sA17Eeqmk8eDrMrnPw" base_Port="_7PN8YA17Eeqmk8eDrMrnPw" direction="in"/>
+  <PortsAndFlows:ItemFlow xmi:id="_FHVRAA18Eeqmk8eDrMrnPw" base_InformationFlow="_FHS0wA18Eeqmk8eDrMrnPw"/>
+  <PortsAndFlows:ItemFlow xmi:id="_4_A-4A18Eeqmk8eDrMrnPw" base_InformationFlow="_4-97kA18Eeqmk8eDrMrnPw"/>
+  <DeprecatedElements:FlowPort xmi:id="_FLHS4A1-Eeqmk8eDrMrnPw" base_Port="_FLEPkA1-Eeqmk8eDrMrnPw" direction="in"/>
+  <PortsAndFlows:ItemFlow xmi:id="_J118oA1-Eeqmk8eDrMrnPw" base_InformationFlow="_J1y5UA1-Eeqmk8eDrMrnPw"/>
+  <PortsAndFlows:ItemFlow xmi:id="_LAz68A1-Eeqmk8eDrMrnPw" base_InformationFlow="_LAyFwA1-Eeqmk8eDrMrnPw"/>
+  <DeprecatedElements:FlowPort xmi:id="_wRV1YA2CEeqmk8eDrMrnPw" base_Port="_wQ8MwA2CEeqmk8eDrMrnPw" direction="in"/>
+  <DeprecatedElements:FlowPort xmi:id="_FMdkcA2DEeqmk8eDrMrnPw" base_Port="_FMbIMA2DEeqmk8eDrMrnPw" direction="out"/>
+  <PortsAndFlows:ItemFlow xmi:id="_KAfUIA2DEeqmk8eDrMrnPw" base_InformationFlow="_KAc34A2DEeqmk8eDrMrnPw"/>
+  <PortsAndFlows:ItemFlow xmi:id="_Pt1RcA2DEeqmk8eDrMrnPw" base_InformationFlow="_Pty1MA2DEeqmk8eDrMrnPw"/>
+  <DeprecatedElements:FlowPort xmi:id="_iz0OYA2EEeqmk8eDrMrnPw" base_Port="_izxyIA2EEeqmk8eDrMrnPw" direction="out"/>
+  <PortsAndFlows:ItemFlow xmi:id="_l_KJAA2EEeqmk8eDrMrnPw" base_InformationFlow="_l_HswA2EEeqmk8eDrMrnPw"/>
+  <PortsAndFlows:ItemFlow xmi:id="_pKkfoA2FEeqmk8eDrMrnPw" base_InformationFlow="_pKiqcA2FEeqmk8eDrMrnPw"/>
+  <PortsAndFlows:ItemFlow xmi:id="_rsSOcA2FEeqmk8eDrMrnPw" base_InformationFlow="_rsPyMA2FEeqmk8eDrMrnPw"/>
+  <PortsAndFlows:ItemFlow xmi:id="_8H8IkA2FEeqmk8eDrMrnPw" base_InformationFlow="_8H6TYA2FEeqmk8eDrMrnPw"/>
 </xmi:XMI>
