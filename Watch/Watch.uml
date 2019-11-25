@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:DeprecatedElements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/DeprecatedElements" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.4/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/DeprecatedElements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements http://www.eclipse.org/papyrus/sysml/1.4/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
-  <uml:Model xmi:id="_oD3iYPCeEemoOf5U7hYdsA" name="Watch">
+  <uml:Model xmi:id="_oD3iYPCeEemoOf5U7hYdsA" name="Watch" viewpoint="">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_oU0vgPCeEemoOf5U7hYdsA">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
@@ -49,7 +49,7 @@
           <group xmi:type="uml:InterruptibleActivityRegion" xmi:id="_6WDDkATGEeqjXMgfiZ5iGg" name="InterruptibleActivityRegion" interruptingEdge="_z9MLcATDEeqjXMgfiZ5iGg" node="_HbEsoPgwEemhb-jx_HZ7Hw _LAAR8AQjEeqjXMgfiZ5iGg _YdHXUAQjEeqjXMgfiZ5iGg _Jh9goPgwEemhb-jx_HZ7Hw _g4apsPgwEemhb-jx_HZ7Hw _iz5ksATCEeqjXMgfiZ5iGg __oX0YA8wEeqFX9yssY99MA"/>
           <node xmi:type="uml:InitialNode" xmi:id="_Q5MwwPgsEemhb-jx_HZ7Hw" name="Start" outgoing="_jAA6QPguEemhb-jx_HZ7Hw"/>
           <node xmi:type="uml:ForkNode" xmi:id="_YKxg8PgsEemhb-jx_HZ7Hw" name="" incoming="_jAA6QPguEemhb-jx_HZ7Hw" outgoing="_Df5SUAQqEeqjXMgfiZ5iGg _3RZqQAQrEeqjXMgfiZ5iGg _QNg6kATREeqEJsux8YFCpQ"/>
-          <node xmi:type="uml:DecisionNode" xmi:id="_Jh9goPgwEemhb-jx_HZ7Hw" name="Select Screen" inInterruptibleRegion="_6WDDkATGEeqjXMgfiZ5iGg" incoming="_SFcskATREeqEJsux8YFCpQ" outgoing="_evWUsATDEeqjXMgfiZ5iGg _j74rAATDEeqjXMgfiZ5iGg" decisionInput="_Cey0oA9BEeqFX9yssY99MA" decisionInputFlow="_SFcskATREeqEJsux8YFCpQ"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_Jh9goPgwEemhb-jx_HZ7Hw" name="Select Screen" inInterruptibleRegion="_6WDDkATGEeqjXMgfiZ5iGg" incoming="_SFcskATREeqEJsux8YFCpQ" outgoing="_evWUsATDEeqjXMgfiZ5iGg _j74rAATDEeqjXMgfiZ5iGg" decisionInputFlow="_SFcskATREeqEJsux8YFCpQ"/>
           <node xmi:type="uml:JoinNode" xmi:id="_g4apsPgwEemhb-jx_HZ7Hw" name="" inInterruptibleRegion="_6WDDkATGEeqjXMgfiZ5iGg" incoming="_rVMa4ATDEeqjXMgfiZ5iGg _ssSwsATDEeqjXMgfiZ5iGg" outgoing="_uRbigATDEeqjXMgfiZ5iGg"/>
           <node xmi:type="uml:AcceptEventAction" xmi:id="_36I44PgwEemhb-jx_HZ7Hw" name="Button Pressed" incoming="_z9MLcATDEeqjXMgfiZ5iGg">
             <result xmi:type="uml:OutputPin" xmi:id="_resgoA9BEeqFX9yssY99MA" name="Pressed For 3 Secods" outgoing="_zg1VoA9CEeqFX9yssY99MA" type="_Rdei0A8zEeqFX9yssY99MA" isControlType="true">
@@ -98,7 +98,7 @@
           </node>
           <node xmi:type="uml:JoinNode" xmi:id="_iHbOUATEEeqjXMgfiZ5iGg" name="" incoming="_YLNx8ATGEeqjXMgfiZ5iGg _cDXIMATGEeqjXMgfiZ5iGg" outgoing="_rz96MATGEeqjXMgfiZ5iGg"/>
           <node xmi:type="uml:JoinNode" xmi:id="_jVVy8ATEEeqjXMgfiZ5iGg" name="" incoming="_d36PAATGEeqjXMgfiZ5iGg _fZLNcATGEeqjXMgfiZ5iGg _kBifsATGEeqjXMgfiZ5iGg" outgoing="_ldoqQATGEeqjXMgfiZ5iGg"/>
-          <node xmi:type="uml:DataStoreNode" xmi:id="_HbEsoPgwEemhb-jx_HZ7Hw" name="Display Settings" inInterruptibleRegion="_6WDDkATGEeqjXMgfiZ5iGg" incoming="_QNg6kATREeqEJsux8YFCpQ _j0NMEA8_EeqFX9yssY99MA" outgoing="_SFcskATREeqEJsux8YFCpQ" type="_re6I0ATJEeqEJsux8YFCpQ" isControlType="true" selection="_Cey0oA9BEeqFX9yssY99MA">
+          <node xmi:type="uml:DataStoreNode" xmi:id="_HbEsoPgwEemhb-jx_HZ7Hw" name="Display Settings" inInterruptibleRegion="_6WDDkATGEeqjXMgfiZ5iGg" incoming="_QNg6kATREeqEJsux8YFCpQ _j0NMEA8_EeqFX9yssY99MA" outgoing="_SFcskATREeqEJsux8YFCpQ" type="_re6I0ATJEeqEJsux8YFCpQ" isControlType="true">
             <upperBound xmi:type="uml:LiteralInteger" xmi:id="_HbFTsPgwEemhb-jx_HZ7Hw" value="1"/>
           </node>
           <node xmi:type="uml:AcceptEventAction" xmi:id="__oX0YA8wEeqFX9yssY99MA" name="ButtonTapped" inInterruptibleRegion="_6WDDkATGEeqjXMgfiZ5iGg" incoming="_5s9JYA8xEeqFX9yssY99MA">
@@ -139,10 +139,16 @@
         </packagedElement>
         <packagedElement xmi:type="uml:SignalEvent" xmi:id="_NSQfkA8zEeqFX9yssY99MA" name="ButtonTapped" signal="_Rdei0A8zEeqFX9yssY99MA"/>
         <packagedElement xmi:type="uml:Signal" xmi:id="_Rdei0A8zEeqFX9yssY99MA" name="ButtonPress"/>
-        <packagedElement xmi:type="uml:Interaction" xmi:id="_Cey0oA9BEeqFX9yssY99MA" name="ScreenSelection"/>
+        <packagedElement xmi:type="uml:Interaction" xmi:id="_Cey0oA9BEeqFX9yssY99MA" name="ScreenSelection" specification="_6fInsA9GEeqFX9yssY99MA">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_6fInsA9GEeqFX9yssY99MA" name="IterateApplications" concurrency="concurrent" method="_Cey0oA9BEeqFX9yssY99MA">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_EvF0kA9HEeqFX9yssY99MA" name="CurrentApp" type="_re6I0ATJEeqEJsux8YFCpQ"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_IzZ-kA9HEeqFX9yssY99MA" name="NextApp" type="_re6I0ATJEeqEJsux8YFCpQ" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
         <packagedElement xmi:type="uml:SignalEvent" xmi:id="_fd8rkA9BEeqFX9yssY99MA" name="ButtonDown" signal="_Rdei0A8zEeqFX9yssY99MA"/>
         <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_qTZDwA9EEeqFX9yssY99MA" name="ApplicationInstance"/>
         <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_0nDr8A9EEeqFX9yssY99MA" name="WatchApplication"/>
+        <packagedElement xmi:type="uml:FunctionBehavior" xmi:id="_JoSYIA9HEeqFX9yssY99MA" name="IterateThroughApplications"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_LPzlgP9iEemWTP7lXo3nlA" name="Uses">
         <packagedElement xmi:type="uml:Actor" xmi:id="_aXk14P9iEemWTP7lXo3nlA" name="User"/>
@@ -385,7 +391,17 @@
         <packagedElement xmi:type="uml:InformationFlow" xmi:id="_pKiqcA2FEeqmk8eDrMrnPw" name="ItemFlow40" conveyed="_R5likAn6EeqFjqGDjVUNPA" informationSource="_PPeFsAn6EeqFjqGDjVUNPA" informationTarget="_sgFc4An2EeqFjqGDjVUNPA _FMbIMA2DEeqmk8eDrMrnPw"/>
         <packagedElement xmi:type="uml:InformationFlow" xmi:id="_rsPyMA2FEeqmk8eDrMrnPw" name="ItemFlow42" conveyed="_R5likAn6EeqFjqGDjVUNPA" informationSource="_sgFc4An2EeqFjqGDjVUNPA" informationTarget="_BhwoogozEeqXD6ZCpAvDgg"/>
         <packagedElement xmi:type="uml:InformationFlow" xmi:id="_8H6TYA2FEeqmk8eDrMrnPw" name="ItemFlow45" conveyed="_R5likAn6EeqFjqGDjVUNPA" informationSource="_wQ8MwA2CEeqmk8eDrMrnPw" informationTarget="_kC__UA15Eeq6HapPHiKqMQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_qHnC0A9KEeqFX9yssY99MA" name="Satisfies_Smart Watch" client="_sgFc4An2EeqFjqGDjVUNPA" supplier="_9GzewPCgEemoOf5U7hYdsA"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_qHvlsA9KEeqFX9yssY99MA" name="Satisfies_Watch" client="_sgFc4An2EeqFjqGDjVUNPA" supplier="_RJ0u4PCmEemoOf5U7hYdsA"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_5HBocA9KEeqFX9yssY99MA" name="Satisfies_Gyroscope" client="_3ZZq0AotEeqXD6ZCpAvDgg" supplier="_vNmIoPFjEemXarYm_2DuEw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_CgJT8A9LEeqFX9yssY99MA" name="Satisfies_Photodiode" client="_XXjCcAouEeqXD6ZCpAvDgg" supplier="_IK_aUPFkEemXarYm_2DuEw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_GGcsQA9LEeqFX9yssY99MA" name="Satisfies_GPS" client="_EA-2YAouEeqXD6ZCpAvDgg" supplier="_44YAYPCpEemoOf5U7hYdsA"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_LMAQ0A9LEeqFX9yssY99MA" name="Satisfies_Acelerometer" client="_jA8ZYAosEeqXD6ZCpAvDgg" supplier="_KC5zoPFjEemXarYm_2DuEw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_fP3nwA9LEeqFX9yssY99MA" name="Satisfies_Screen" client="_lawegAouEeqXD6ZCpAvDgg" supplier="_Lqyd4PCnEemoOf5U7hYdsA"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_z7EEcA9LEeqFX9yssY99MA" name="Satisfies_Widgets" client="_sgFc4An2EeqFjqGDjVUNPA" supplier="_MbpoMPCpEemoOf5U7hYdsA"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_aGufgA9SEeqFX9yssY99MA" name="Internal Block Definition"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ddRkkA9SEeqFX9yssY99MA" name="Parametrics"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_lnD20PCgEemoOf5U7hYdsA" name="Requirements">
       <packagedElement xmi:type="uml:Class" xmi:id="_9GzewPCgEemoOf5U7hYdsA" name="Smart Watch">
@@ -488,7 +504,7 @@
   <Requirements:DeriveReqt xmi:id="_RKIQ4PCmEemoOf5U7hYdsA" base_DirectedRelationship="_RKCKQPCmEemoOf5U7hYdsA" base_Abstraction="_RKCKQPCmEemoOf5U7hYdsA"/>
   <Requirements:Requirement xmi:id="_Lq5LkPCnEemoOf5U7hYdsA" base_Class="_Lqyd4PCnEemoOf5U7hYdsA" id="R-03" text="Screen should be asleep to save battery and it can be turned on by tapping the touch screen, pressing the side button or detecting a rotation to check the watch (face up)."/>
   <Requirements:DeriveReqt xmi:id="_LrBucPCnEemoOf5U7hYdsA" base_DirectedRelationship="_Lq8O4PCnEemoOf5U7hYdsA" base_Abstraction="_Lq8O4PCnEemoOf5U7hYdsA"/>
-  <Requirements:Requirement xmi:id="_Mbt5oPCpEemoOf5U7hYdsA" base_Class="_MbpoMPCpEemoOf5U7hYdsA" id="R-04" text="The watch should let the user install, uninstall or excecute widgets which provide data extracted from the sensors."/>
+  <Requirements:Requirement xmi:id="_Mbt5oPCpEemoOf5U7hYdsA" base_Class="_MbpoMPCpEemoOf5U7hYdsA" id="R-04" text="The watch shall let the user install, uninstall or excecute widgets which provide data extracted from the sensors."/>
   <Requirements:DeriveReqt xmi:id="_MbzZMPCpEemoOf5U7hYdsA" base_DirectedRelationship="_MbvHwPCpEemoOf5U7hYdsA" base_Abstraction="_MbvHwPCpEemoOf5U7hYdsA"/>
   <Requirements:Requirement xmi:id="_44acoPCpEemoOf5U7hYdsA" base_Class="_44YAYPCpEemoOf5U7hYdsA" id="R-05" text="The GPS sensor shall allow widgets to retrieve the location coordinates and time. "/>
   <Requirements:DeriveReqt xmi:id="_44fVIPCpEemoOf5U7hYdsA" base_DirectedRelationship="_44c44PCpEemoOf5U7hYdsA" base_Abstraction="_44c44PCpEemoOf5U7hYdsA"/>
@@ -496,7 +512,7 @@
   <Requirements:DeriveReqt xmi:id="_KDUDUPFjEemXarYm_2DuEw" base_DirectedRelationship="_KDN8sPFjEemXarYm_2DuEw" base_Abstraction="_KDN8sPFjEemXarYm_2DuEw"/>
   <Requirements:Requirement xmi:id="_vNpzAPFjEemXarYm_2DuEw" base_Class="_vNmIoPFjEemXarYm_2DuEw" id="R-07" text="The gyroscope sensor shall allow widgets to detect device rotation and provide it's direction on a vector form. "/>
   <Requirements:DeriveReqt xmi:id="_vNurgPFjEemXarYm_2DuEw" base_DirectedRelationship="_vNsPQPFjEemXarYm_2DuEw" base_Abstraction="_vNsPQPFjEemXarYm_2DuEw"/>
-  <Requirements:Requirement xmi:id="_ILCdoPFkEemXarYm_2DuEw" base_Class="_IK_aUPFkEemXarYm_2DuEw" id="R-08" text="The photodiode sensor shall allow widgets to detect light conditions. "/>
+  <Requirements:Requirement xmi:id="_ILCdoPFkEemXarYm_2DuEw" base_Class="_IK_aUPFkEemXarYm_2DuEw" id="R-08" text="The photodiode sensor shall allow widgets to detect the user's heart rate."/>
   <Requirements:DeriveReqt xmi:id="_ILGvEPFkEemXarYm_2DuEw" base_DirectedRelationship="_ILDrwPFkEemXarYm_2DuEw" base_Abstraction="_ILDrwPFkEemXarYm_2DuEw"/>
   <Blocks:Block xmi:id="_sgPN4An2EeqFjqGDjVUNPA" base_Class="_sgFc4An2EeqFjqGDjVUNPA"/>
   <Blocks:Block xmi:id="_jBImoAosEeqXD6ZCpAvDgg" base_Class="_jA8ZYAosEeqXD6ZCpAvDgg"/>
@@ -550,4 +566,12 @@
   <Requirements:DeriveReqt xmi:id="_DTet0A8pEeqFX9yssY99MA" base_DirectedRelationship="_DTR5gA8pEeqFX9yssY99MA" base_Abstraction="_DTR5gA8pEeqFX9yssY99MA"/>
   <Requirements:Requirement xmi:id="_fj2WsA8qEeqFX9yssY99MA" base_Class="_fjqwgA8qEeqFX9yssY99MA" id="R-10" text="The watch shall include a USB C Port for charging and data transfer."/>
   <Requirements:DeriveReqt xmi:id="_1zhd4A8qEeqFX9yssY99MA" base_DirectedRelationship="_1y-rUA8qEeqFX9yssY99MA" base_Abstraction="_1y-rUA8qEeqFX9yssY99MA"/>
+  <Requirements:Satisfy xmi:id="_qHsiYA9KEeqFX9yssY99MA" base_DirectedRelationship="_qHnC0A9KEeqFX9yssY99MA" base_Abstraction="_qHnC0A9KEeqFX9yssY99MA"/>
+  <Requirements:Satisfy xmi:id="_qHypAA9KEeqFX9yssY99MA" base_DirectedRelationship="_qHvlsA9KEeqFX9yssY99MA" base_Abstraction="_qHvlsA9KEeqFX9yssY99MA"/>
+  <Requirements:Satisfy xmi:id="_5HErwA9KEeqFX9yssY99MA" base_DirectedRelationship="_5HBocA9KEeqFX9yssY99MA" base_Abstraction="_5HBocA9KEeqFX9yssY99MA"/>
+  <Requirements:Satisfy xmi:id="_CgOMcA9LEeqFX9yssY99MA" base_DirectedRelationship="_CgJT8A9LEeqFX9yssY99MA" base_Abstraction="_CgJT8A9LEeqFX9yssY99MA"/>
+  <Requirements:Satisfy xmi:id="_GGehcA9LEeqFX9yssY99MA" base_DirectedRelationship="_GGcsQA9LEeqFX9yssY99MA" base_Abstraction="_GGcsQA9LEeqFX9yssY99MA"/>
+  <Requirements:Satisfy xmi:id="_LMCtEA9LEeqFX9yssY99MA" base_DirectedRelationship="_LMAQ0A9LEeqFX9yssY99MA" base_Abstraction="_LMAQ0A9LEeqFX9yssY99MA"/>
+  <Requirements:Satisfy xmi:id="_fP5c8A9LEeqFX9yssY99MA" base_DirectedRelationship="_fP3nwA9LEeqFX9yssY99MA" base_Abstraction="_fP3nwA9LEeqFX9yssY99MA"/>
+  <Requirements:Satisfy xmi:id="_z7HHwA9LEeqFX9yssY99MA" base_DirectedRelationship="_z7EEcA9LEeqFX9yssY99MA" base_Abstraction="_z7EEcA9LEeqFX9yssY99MA"/>
 </xmi:XMI>
